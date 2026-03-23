@@ -1,0 +1,47 @@
+# ==========================================
+# Ambientes Virtuais Python
+# ==========================================
+.venv/
+venv/
+env/
+
+# ==========================================
+# Pastas de Áudio e Bloqueio Global de Mídia
+# ==========================================
+downloads/
+backing_tracks/
+*.mp3
+*.wav
+*.flac
+*.m4a
+
+# ==========================================
+# Arquivos Temporários de Download (yt-dlp)
+# ==========================================
+*.part
+*.ytdl
+
+# ==========================================
+# Variáveis de Ambiente e Segurança
+# ==========================================
+.env
+.env.*
+
+# ==========================================
+# Arquivos Temporários e de Cache do Python
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ==========================================
+# Configurações de IDEs e Lixo de SO
+# ==========================================
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+desktop.ini
+.DS_Store
