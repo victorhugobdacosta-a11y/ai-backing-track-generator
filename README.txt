@@ -17,7 +17,7 @@ O projeto foi refatorado para seguir o princípio KISS (Keep It Simple, Stupid).
 ## Instalação e Uso
 
 1. Clone este repositório:
-`git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git`
+`git clone https://github.com/victorhugobdacosta-a11y/ai-backing-track-generator.git`
 
 2. Crie e ative um ambiente virtual:
 `python -m venv .venv`
