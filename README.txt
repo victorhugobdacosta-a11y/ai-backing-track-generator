@@ -12,7 +12,7 @@ FFmpeg: Motor de processamento e conversão para o formato lossless (`.wav`).
 Torchcodec:* Otimização de tensores de áudio processados pela IA.
 
 Arquitetura e Decisões de Design (KISS)
-O projeto foi refatorado para seguir o princípio **KISS (Keep It Simple, Stupid)**. Integrações iniciais com APIs instáveis (como a do Spotify, sujeita a pesados *Rate Limits* e bloqueios de chave de desenvolvedor) foram removidas. O fluxo atual foca em estabilidade absoluta: extração direta via `yt-dlp` e processamento imediato pelo motor de IA local, sem depender de autenticações externas ou servidores de terceiros.
+O projeto foi refatorado para seguir o princípio KISS (Keep It Simple, Stupid). Integrações iniciais com APIs instáveis (como a do Spotify, sujeita a pesados *Rate Limits* e bloqueios de chave de desenvolvedor) foram removidas. O fluxo atual foca em estabilidade absoluta: extração direta via `yt-dlp` e processamento imediato pelo motor de IA local, sem depender de autenticações externas ou servidores de terceiros.
 
 ## Instalação e Uso
 
